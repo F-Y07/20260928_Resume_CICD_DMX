@@ -4,9 +4,9 @@
   <meta charset="utf-8"/>
   <meta content="width=device-width, initial-scale=1" name="viewport"/>
   <meta content="noindex, nofollow" name="robots"/>
-  <meta content="课程练习：个人介绍、技能与作品门户。" name="description"/>
+  <meta content="方同学的个人主页：人工智能专业学生，专注前端开发，展示技能、项目经历与学习成果。" name="description"/>
   <title>
-   我的个人主页
+   方同学 · 个人主页
   </title>
   <link href="assets/favicon.svg" rel="icon" type="image/svg+xml"/>
   <!-- CSS 负责颜色、字体、布局；defer 让 JavaScript 在 HTML 解析完成后执行。 -->
@@ -19,13 +19,13 @@
   <a class="skip-link" href="#main">
    跳到正文
   </a>
-  <!-- 第 4 课新增①：顶部阅读进度条，宽度由 JavaScript 控制 -->
+  <!-- 顶部阅读进度条，宽度由 JavaScript 控制 -->
   <div class="reading-progress" id="reading-progress">
   </div>
   <header class="site-header">
    <div class="container header-inner">
     <a class="brand" href="#about">
-     我的主页
+     方同学
     </a>
     <!-- href="#栏目ID" 是原生锚点：即使不加载 JavaScript，也能跳到对应栏目。 -->
     <nav aria-label="主导航">
@@ -36,7 +36,7 @@
       经历
      </a>
      <a href="#projects">
-      科研
+      项目
      </a>
      <a href="#skills">
       技能
@@ -45,7 +45,7 @@
       作品
      </a>
      <a href="#teaching">
-      教学
+      实践
      </a>
      <a href="#publications">
       成果
@@ -54,7 +54,7 @@
    </div>
   </header>
   <main id="main">
-   <!-- HTML 练习：修改姓名、研究方向、照片路径和联系方式。 -->
+   <!-- 个人介绍：姓名、身份、学习方向与基本信息。 -->
    <section class="hero" id="about">
     <div class="container">
      <div class="hero-top">
@@ -69,12 +69,12 @@
         人工智能专业学生 · 前端开发学习者
        </p>
        <p class="hero-school">
-        广东科学职业技术学院· 25大模型应用开发
+        广东科学职业技术学院 · 25 大模型应用开发专业
        </p>
       </div>
       <div class="hero-visual">
        <figure>
-        <img alt="个人头像占位图，请替换为自己的图片" height="220" src="assets/avatar.svg" width="220"/>
+        <img alt="个人头像照片" height="220" src="assets/avatar.png" width="220"/>
        </figure>
       </div>
      </div>
@@ -83,7 +83,7 @@
        学习方向
       </span>
       <p>
-       HTML5、CSS3、JavaScript，正在学习 Git、数据库与网站部署。
+       以<strong>大模型应用开发</strong>为方向，掌握 <strong>HTML5</strong>、<strong>CSS3</strong>、<strong>JavaScript</strong> 前端三件套，正在系统学习 <strong>Git</strong> 版本管理、<strong>数据库</strong>与<strong>网站部署</strong>，希望用完整的项目串联所学，做出可被他人访问的产品。
       </p>
      </div>
      <div class="profile-details">
@@ -105,10 +105,12 @@
       </div>
       <div>
        <span>
-        联系
+        联系方式
        </span>
        <p>
-        请填写可公开的联系方式
+        <a href="mailto:13005570776163@163.com">
+         13005570776163@163.com
+        </a>
        </p>
       </div>
       <div>
@@ -116,38 +118,38 @@
         学校地址
        </span>
        <p>
-        请填写自己的学校地址
+        广东科学职业技术学院（珠海校区）
        </p>
       </div>
      </div>
     </div>
    </section>
-   <!-- 每个栏目复用 section → container → 标题/内容 的结构，统一由 CSS 控制样式。 -->
+   <!-- 教育与工作经历：按时间倒序展示。 -->
    <section class="section" id="experience">
     <div class="container">
      <header class="section-heading">
       <h2>
-       教育与工作经历
+       教育与经历
       </h2>
      </header>
      <div class="section-content">
-      <!-- TASK-HTML：复制 experience-item 可增加一条自己的经历。 -->
       <div class="experience-item">
        <p class="experience-heading">
         <strong>
-         我的学校 · 软件技术专业
+         广东科学职业技术学院 · 软件技术专业
         </strong>
         <time>
-         在读
+         2025 — 在读
         </time>
        </p>
        <p class="experience-detail">
-        学习网页开发，用项目记录成长
+        主修大模型应用开发方向，系统学习前端网页开发（HTML5 / CSS3 / JavaScript）、版本管理与网站部署，以项目驱动学习，用作品记录成长。
        </p>
       </div>
      </div>
     </div>
    </section>
+   <!-- 项目经历：每个项目说明内容与承担的职责。 -->
    <section class="section" id="projects">
     <div class="container">
      <header class="section-heading">
@@ -159,17 +161,29 @@
       <article class="research-item">
        <h3>
         <time>
-         课程练习
+         2026
         </time>
-        个人主页
+        个人主页 · 简历门户
        </h3>
        <p>
-        项目内容：制作自己的网页，展示资料与作品，记录修改、测试与发布过程
+        从零制作个人主页：搭建页面结构与样式、接入数据渲染与筛选排序、加入阅读进度与栏目高亮等交互；使用 Git 管理版本，并通过 GitHub Pages 完成部署与发布。过程中掌握「数据与视图分离」「渐进增强」等前端工程思想。
+       </p>
+      </article>
+      <article class="research-item">
+       <h3>
+        <time>
+         2025
+        </time>
+        前端系列小应用
+       </h3>
+       <p>
+        独立完成博客、社区、祝福卡片、音乐站等前端小应用，覆盖页面布局、接口与数据库、网页音频与交互、AI 辅助生成等实践，完整走通「开发 — 测试 — 部署」流程。
        </p>
       </article>
      </div>
     </div>
    </section>
+   <!-- 技能与实践：按板块归纳已掌握的能力。 -->
    <section class="section" id="skills">
     <div class="container">
      <header class="section-heading">
@@ -183,24 +197,43 @@
         <strong>
          网页内容
         </strong>
-        HTML5 结构、图片、链接。
+        HTML5 语义化结构、图片与链接、表单与多媒体。
        </li>
        <li>
         <strong>
          页面样式
         </strong>
-        CSS3 字体、颜色、响应式布局。
+        CSS3 字体与配色、Flex / Grid 响应式布局、过渡动画与无障碍。
        </li>
        <li>
         <strong>
-         开发过程
+         前端交互
         </strong>
-        JavaScript、Git、检查与部署。
+        JavaScript DOM 操作、事件监听、数据渲染与筛选排序。
+       </li>
+       <li>
+        <strong>
+         工程与部署
+        </strong>
+        Git 版本管理、GitHub Pages / Netlify 网站部署、CI 自动检查。
+       </li>
+       <li>
+        <strong>
+         数据与接口
+        </strong>
+        数据库基本概念、接口调用与数据展示。
+       </li>
+       <li>
+        <strong>
+         大模型应用
+        </strong>
+        大模型辅助开发与内容生成，AI 工具在产品中的应用。
        </li>
       </ul>
      </div>
     </div>
    </section>
+   <!-- 作品门户：数据由 works-data.js 渲染，支持筛选与排序。 -->
    <section class="section" id="portfolio">
     <div class="container">
      <header class="section-heading">
@@ -208,11 +241,10 @@
        作品门户
       </h2>
       <p class="works-notice">
-       以下为教学示例，完成后可替换为自己的作品。
+       以下是已完成的实践作品，点击可查看线上版本。
       </p>
      </header>
-     <!-- 第 5 课新增：筛选与排序工具条。里面的按钮由 JavaScript 生成，
-          不写 JS 时这里是空的，页面照常显示全部作品。 -->
+     <!-- 筛选与排序工具条：按钮由 JavaScript 生成，不写 JS 时页面照常显示全部作品。 -->
      <div class="works-toolbar">
       <div class="works-tags" id="works-tags">
       </div>
@@ -284,6 +316,7 @@
      </ol>
     </div>
    </section>
+   <!-- 学习与实践：记录本学期目标与练习方式。 -->
    <section class="section" id="teaching">
     <div class="container">
      <header class="section-heading">
@@ -298,19 +331,20 @@
        </h3>
        <ol>
         <li>
-         每次课完成一个可运行的小改动。
+         每节课完成一个可运行的小改动，保持产出不断。
         </li>
         <li>
-         能解释自己修改的 HTML、CSS 和 JavaScript。
+         能清楚解释自己写下的 HTML、CSS 与 JavaScript。
         </li>
         <li>
-         使用 Git 记录版本，让作品能被别人访问。
+         用 Git 记录每个版本，让作品能被公开访问。
         </li>
        </ol>
       </div>
      </div>
     </div>
    </section>
+   <!-- 学习记录：阶段性成果与收获。 -->
    <section class="section" id="publications">
     <div class="container">
      <header class="section-heading">
@@ -321,14 +355,17 @@
      <div class="section-content">
       <div class="publication-group">
        <h3>
-        我的记录
+        阶段成果
        </h3>
        <ol class="references">
         <li>
-         完成第一张个人主页。
+         完成第一版个人主页，包含个人介绍、技能、作品与学习记录。
         </li>
         <li>
-         后续在这里补充自己的真实成果。
+         独立完成多个前端小应用，并部署上线可公开访问。
+        </li>
+        <li>
+         （此处可继续补充后续的真实成果与收获。）
         </li>
        </ol>
       </div>
@@ -336,7 +373,7 @@
     </div>
    </section>
   </main>
-  <!-- 第 4 课新增：这两块由 JavaScript 控制，不写 JS 时它们不会出现 -->
+  <!-- 由 JavaScript 控制：当前栏目指示器与返回顶部按钮 -->
   <p aria-live="polite" class="section-indicator" id="section-indicator">
   </p>
   <button aria-label="返回页面顶部" class="to-top" id="to-top" type="button">
